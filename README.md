@@ -1,7 +1,17 @@
 ## Project Title
 我的餐廳清單
 ## Installation
-輸入執行指令，開啟本地伺服器
+1. Git clone
+```
+git clone https://github.com/BAGEBEAR/2-3_restaurant_list.git
+```
+2. 安裝npm
+```
+npm install
+```
+3. 
+
+3. 輸入執行指令，開啟本地伺服器
 ```
 npm run dev
 ```

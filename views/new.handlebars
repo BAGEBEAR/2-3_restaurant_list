@@ -1,0 +1,55 @@
+<form action="/restaurants" method="POST">
+  <div class="container">
+    <h2>新增餐廳</h2>
+    <div class="form-group">
+      <label for="new-name">餐廳名稱</label>
+      <input type="text" class="form-control" id="new-name" placeholder="餐廳名稱" name="name">
+    </div>
+    <div class="form-group">
+      <label for="new-name_en">餐廳英文名稱</label>
+      <input type="text" class="form-control" id="new-name_en" placeholder="餐廳英文名稱" name="name_en">
+    </div>
+    <div class="form-group">
+      <label for="new-category">餐廳類型</label>
+      <input type="text" class="form-control" id="new-category" placeholder="餐廳類型" name="category">
+    </div>
+    <div class="form-group">
+      <label for="new-image">圖片</label>
+      <input type="text" class="form-control" id="new-image" placeholder="圖片" name="image">
+    </div>
+    <div class="form-group">
+      <label for="new-location">餐廳地址</label>
+      <input type="text" class="form-control" id="new-location" placeholder="餐廳地址" name="location">
+    </div>
+    <div class="form-group">
+      <label for="new-phone">餐廳電話</label>
+      <input type="text" class="form-control" id="new-phone" placeholder="餐廳電話" name="phone">
+    </div>
+    <div class="form-group">
+      <label for="new-google_map">google map網址</label>
+      <input type="text" class="form-control" id="new-google_map" placeholder="google map" name="google_map">
+    </div>
+    <div class="form-group">
+      <label for="new-rating">評分</label>
+      <input type="number" class="form-control" id="new-rating" placeholder="評分" name="rating" min="0" max="5" step="0.1">
+    </div>
+    <div class="form-group">
+      <label for="new-description">簡介</label>
+      <input type="text" class="form-control" id="new-description" rows="5" name="description">
+    </div>
+
+    <button type="submit" class="btn btn-success">送出</button>
+  </div>
+
+  {{!--
+  <input type="text" placeholder="name_en" name="name_en">
+  <input type="text" placeholder="category" name="category">
+  <input type="text" placeholder="image" name="image">
+  <input type="text" placeholder="location" name="location">
+  <input type="text" placeholder="phone" name="phone">
+  <input type="text" placeholder="google_map" name="google_map">
+  <input type="text" placeholder="rating" name="rating">
+  <input type="text" placeholder="description" name="description">
+  --}}
+
+</form>
