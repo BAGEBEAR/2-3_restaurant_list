@@ -1,17 +1,7 @@
 ## Project Title
 我的餐廳清單
 ## Installation
-1. Git clone
-```
-git clone https://github.com/BAGEBEAR/2-3_restaurant_list.git
-```
-2. 安裝npm
-```
-npm install
-```
-3. 
-
-3. 輸入執行指令，開啟本地伺服器
+輸入執行指令，開啟本地伺服器
 ```
 npm run dev
 ```
@@ -28,4 +18,6 @@ npm run dev
 * jquery: 3.6.0
 * popper: 2.9.1
 * bootstrap: 4.6.0
+* method-override: 3.0.0
+* mongoose: 5.13.7
 * font-awesome: 5.15.3
