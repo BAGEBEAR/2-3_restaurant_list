@@ -16,7 +16,6 @@ router.post('/', (req, res) => {
 
 router.get('/:id', (req, res) => {
   const id = req.params.id
-  // console.log('id', id)
   return Restaurant.findById(id)
     .lean()
     .then((restaurant) => res.render('show', { restaurant }))
@@ -36,15 +35,15 @@ router.put('/:id', (req, res) => {
   const { name, name_en, category, image, location, phone, google_map, rating, description } = req.body
   return Restaurant.findById(id)
     .then(item => {
-      item.name = name,
-        item.name_en = name_en,
-        item.category = category,
-        item.image = image,
-        item.location = location,
-        item.phone = phone,
-        item.google_map = google_map,
-        item.rating = rating,
-        item.description = description
+      item.name = name
+      item.name_en = name_en
+      item.category = category
+      item.image = image
+      item.location = location
+      item.phone = phone
+      item.google_map = google_map
+      item.rating = rating
+      item.description = description
       return item.save()
     })
     .then(() => res.redirect(`./${id}`))
