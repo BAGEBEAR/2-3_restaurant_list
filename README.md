@@ -1,10 +1,23 @@
 ## Project Title
 我的餐廳清單
 ## Installation
-輸入執行指令，開啟本地伺服器
+* 輸入執行指令，開啟本地伺服器
 ```
 npm run dev
 ```
+* 透過npm安裝所需要的套件
+```
+npm install
+```
+* 透過seeder創造資料
+```
+npm run seed
+```
+* 啟動伺服器
+```
+npm run dev
+```
+
 ## Features
 ### 列出我的餐廳清單
 1. 使用者可以在首頁看到餐廳與它們的簡單資料
